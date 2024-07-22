@@ -12,7 +12,7 @@ int main(void)
 	sf::Music beep;
 	std::string s;
 
-	beep.openFromFile("beep.wav");
+	beep.openFromFile("assets/beep.wav");
 	std::cout << "0" << std::endl;
 	while (std::getline(std::cin, s)) {
 		counter++;
